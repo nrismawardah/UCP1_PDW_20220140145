@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony Angel's Emporium</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8e1e7;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        section {
+        margin-bottom: 40px;
+        }
+
+        #best{
+        background-color: #fff;
+        }
+
+        .navbar {
+            background-color: #f2c2cd;
+        }
+
+        .navbar-pink {
+            background-color: #f2c2cd;
+        }
+
+        .nav-link {
+            color: #fff;
+        }
+
+        .nav-link:hover {
+            color: #f05565;
+        }
+
+        .jumbotron {
+            background-color: #fefefe;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+            height: 400px;
+            width: 270px;
+        }
+
+        .card-header {
+            background-color: #f2c2cd;
+            border-radius: 15px;
+            height: 60px;
+            width: 270px;
+        }
+
+        .card-body {
+            color: #000000;
+        }
+
+        .btn-link {
+            color: #ee7f8a;
+        }
+
+        .btn-link:hover {
+            color: #e64565;
+        }
+
+        footer {
+            background-color: #f2c2cd;
+            color: #fff;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-pink">
+        <div class="container">
+            <a class="navbar-brand" href="#">sony angel's emporium</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produk-best-seller">best seller</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produk-available">available product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="jumbotron text-center">
+        <h1 class="display-4">welcome to sony angel's emporium</h1>
+        <p class="lead">This store provides the best Sony Angel figures in Indonesia!</p>
+        <p id="current-time"></p>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-6">
+                    <img src="assets/about.jpeg" alt="about" class="img-fluid" style="width: 300px; height: 300px; border-radius: 20px;">
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0" style="left: -200px;">
+                    <h2><b>About</b></h2>
+                    <p>Sonny Angel is a little angel boy who likes wearing all sorts of headgear. He is always by your side to make you smile. Sonny Angel provides healing moments in your everyday life. He is a welcome sight at the entrance to your home, next to your bed, on your desk, and so many other places.</p>
+                    <h6><b>He may bring you happiness!</b></h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Produk Best Seller Section -->
+    <section id="produk-best-seller" class="section bg-light">
+        <div class="container" style="max-width: 1200px; align-content: center;">
+            <h2 style="text-align: center;"><b>Best Seller</b></h2>
+            <h5 style="text-align: center;">here are the best-selling items in our store.</h5>
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <!-- Kotak dengan Tombol -->
+                    <div class="card-header">
+                        <div class="card-header-body text-center">
+                            <!-- Tombol di Tengah -->
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Chocolate-Fawn
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Kotak Konten yang Disembunyikan -->
+                    <div id="collapseOne" class="collapse">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://i.pinimg.com/736x/e8/3c/cb/e83ccb0db805f31dd454d5e1b8c4a8e7.jpg"
+                                    alt="Chocolate-Fawn" class="img-fluid">
+                                <p style="text-align: center;">Sonny Angels Valentines Day Series 2019</p>
+                                <h5 style="text-align: center;">Rp1.705.000</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card-header">
+                        <div class="card-header-body text-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="true" aria-controls="collapseTwo">
+                                Digby
+                            </button>
+                        </div>
+                    </div>
+                    <div id="collapseTwo" class="collapse">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://i.pinimg.com/564x/8e/96/ae/8e96ae44174ebbd323b80043da4a2a01.jpg" alt="Digby"
+                                    class="img-fluid">
+                                <p style="text-align: center;">Sonny Angels Donna Wilson Series 2021</p>
+                                <h5 style="text-align: center;">Rp1.430.000</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card-header">
+                        <div class="card-header-body text-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="true" aria-controls="collapseThree">
+                                Chocolate-Sheep
+                            </button>
+                        </div>
+                    </div>
+                    <div id="collapseThree" class="collapse">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://i.pinimg.com/736x/05/f2/f7/05f2f7cac279cb617d4416d81753e08e.jpg" alt="Chocolate-Sheep"
+                                    class="img-fluid">
+                                <p style="text-align: center;">Sonny Angels Valentines Day Series 2019</p>
+                                <h5 style="text-align: center;">Rp1.550.000</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="card-header">
+                        <div class="card-header-body text-center">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="true" aria-controls="collapseFour">
+                                Writing Pink Sheep
+                            </button>
+                        </div>
+                    </div>
+                    <div id="collapseFour" class="collapse">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="https://i.pinimg.com/564x/a5/ae/dc/a5aedc0f154c89007ff9aef533ccb742.jpg" alt="Boneka Panda"
+                                    class="img-fluid">
+                                <p style="text-align: center;">Sonny Angels Enjoy the Moment Series 2020</p>
+                                <h5 style="text-align: center;">Rp1.850.000</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produk Tersedia Section -->
+    <section id="produk-available" class="section">
+        <div class="container">
+            <h2 style="text-align: center;"><b>Available Product</b></h2>
+            <h5 style="text-align: center;">here are the available items in our store.</h5>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/7c/b5/c8/7cb5c886d7f756b7c76d69d57298325c.jpg" class="card-img-top" alt="Sonny Angel 1">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;"><b>Seal</b></h5>
+                            <p class="card-text" style="text-align: center;">Sonny Angels Marine Series</p>
+                            <p class="card-text" style="text-align: center;">8 items left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/34/47/27/34472792a69444b58ee61ea121311dcf.jpg" class="card-img-top" alt="Sonny Angel 2">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;"><b>Horse</b></h5>
+                            <p class="card-text" style="text-align: center;">Sonny Angels Animals Series</p>
+                            <p class="card-text" style="text-align: center;">21 items left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/84/4d/c4/844dc48b075514210c2c8af49075edc2.jpg" class="card-img-top" alt="Sonny Angel 3">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;"><b>Konpeito Candy</b></h5>
+                            <p class="card-text" style="text-align: center;">Sonny Angels Sweets Series</p>
+                            <p class="card-text" style="text-align: center;">11 items left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/86/2f/14/862f148e941561a90448f0fe246c2e04.jpg" class="card-img-top" alt="Sonny Angel 4">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;"><b>Radish</b></h5>
+                            <p class="card-text" style="text-align: center;">Sonny Angels Vegetable Series</p>
+                            <p class="card-text" style="text-align: center;">17 items left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/84/39/7a/84397a7c662ac6dd97169aab3015a7a1.jpg" class="card-img-top" alt="Sonny Angel 5">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;"><b>Carnation</b></h5>
+                            <p class="card-text" style="text-align: center;">Sonny Angels Flower Series</p>
+                            <p class="card-text" style="text-align: center;">9 items left</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/564x/5c/23/6a/5c236abfc9c4789b6c9ce7e98b3f02e2.jpg" class="card-img-top" alt="Sonny Angel 6">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;"><b>Grape</b></h5>
+                            <p class="card-text" style="text-align: center;">Sonny Angels Fruit Series</p>
+                            <p class="card-text" style="text-align: center;">14 items left</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background-color: #fff;">
+        <div class="container" style="height: 200px; align-content: center;">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2><b>Contact</b></h2>
+                    <p>St. Puntadewa, Kasihan, Bantul, DIY</p>
+                    <p>+62 8234567890</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <div class="container">
+            &copy; 2024 sony angel's emporium. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- JavaScript untuk menampilkan waktu saat ini -->
+    <script>
+        function displayTime() {
+            const now = new Date();
+            const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' };
+            document.getElementById('current-time').textContent = now.toLocaleDateString('en-US', options);
+        }
+        setInterval(displayTime, 1000);
+        displayTime(); // Menampilkan waktu saat pertama kali halaman dimuat
+    </script>
+
+    <!-- Script Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
